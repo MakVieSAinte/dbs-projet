@@ -1,0 +1,89 @@
+{
+   "etudiants": [
+     {
+       "nom": "Dupont",
+       "prenom": "Marie",
+       "filiere": "Informatique",
+       "moyenne": 15.5
+     },
+     {
+       "nom": "Martin",
+       "prenom": "Jean",
+       "filiere": "Mathematiques",
+       "moyenne": 14.2
+     },
+     {
+       "nom": "Durand",
+       "prenom": "Sophie",
+       "filiere": "Physique",
+       "moyenne": 13.8
+     },
+     {
+       "nom": "Bernard",
+       "prenom": "Lucas",
+       "filiere": "Chimie",
+       "moyenne": 16.1
+     },
+     {
+       "nom": "Petit",
+       "prenom": "Emma",
+       "filiere": "Biologie",
+       "moyenne": 14.9
+      },
+      {
+        "nom": "Rousseau",
+        "prenom": "Alice",
+        "filiere": "Litterature",
+       "moyenne": 15.7
+     },
+     {
+       "nom": "Lefevre",
+       "prenom": "Paul",
+       "filiere": "Economie",
+       "moyenne": 13.5
+      },
+      {
+        "nom": "Martin",
+        "prenom": "Jean",
+        "filiere": "Mathematiques",
+        "moyenne": 14.2
+      },
+      {
+        "nom": "Durand",
+        "prenom": "Sophie",
+        "filiere": "Physique",
+        "moyenne": 13.8
+      },
+      {
+        "nom": "Bernard",
+        "prenom": "Lucas",
+        "filiere": "Chimie",
+        "moyenne": 16.1
+      },
+     {
+       "nom": "Bernard",
+       "prenom": "Lucas",
+       "filiere": "Chimie",
+       "moyenne": 16.1
+     },
+     {
+       "nom": "Petit",
+       "prenom": "Emma",
+       "filiere": "Biologie",
+       "moyenne": 14.9
+     },
+     {
+       "nom": "Rousseau",
+       "prenom": "Alice",
+       "filiere": "Litterature",
+       "moyenne": 15.7
+     },
+     {
+       "nom": "Lefevre",
+       "prenom": "Paul",
+       "filiere": "Economie",
+       "moyenne": 13.5
+     }
+   ]
+ }
+ 

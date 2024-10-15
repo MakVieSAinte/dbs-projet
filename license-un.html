@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr" translate="yes">
+
+<head>
+    <!-- ==== Meta données ==== -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="robots" content="INDEX, FOLLOW">
+    <!-- ==== Theme couleur ==== -->
+    <meta name="theme-color" content="#1EE31E" />
+    <meta name="msapplication-TileColor" content="#1EE31E" />
+    <!-- ==== Meta ogg pour le partage ==== -->
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:type" content="éducatif" />
+    <meta property="og:image" content="./assets/images/bg.png" />
+    <meta property="og:title" content="Digital Business School" />
+    <meta property="og:description" content="Bienvenue sur notre page de téléchargement. Accédez rapidement à vos résultats pour préparer votre rentrée." />
+    <title>DBS | Digital Business School</title>
+    <!-- ==== Favicon du site web ==== -->
+    <link rel="apple-touch-icon" type="image/png" sizes="192x192" href="./assets/images/logo.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="./assets/images/logo.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./assets/images/logo.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/logo.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/logo.png">
+    <!-- ==== Css fichiers ==== -->
+    <link rel="stylesheet" type="text/css" href="./dist/output.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/input.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/pagedone.css">
+    <!-- ==== Police d'ecriture & icones ==== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<!-- <script type="module">
+
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-analytics.js";
+    import { getDatabase, ref, onValue } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-database.js";
+    import { getFirestore, collection, getDocs } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-firestore.js";
+
+    const firebaseConfig = {
+        apiKey: "AIzaSyB7vlExLoHFMKvq1I7vtQBRTfcDcx536Kk",
+        authDomain: "dbs-projet.firebaseapp.com",
+        projectId: "dbs-projet",
+        storageBucket: "dbs-projet.appspot.com",
+        messagingSenderId: "787141036203",
+        appId: "1:787141036203:web:023f00d42999ea10d0cfee",
+        measurementId: "G-XZC7JV664Q"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+
+    const database = getDatabase(app);
+    const firestore = getFirestore(app);
+
+    // Récupérer les données depuis Realtime Database
+    const dbRef = ref(database, '/'); // Remplacez par le chemin réel
+    onValue(dbRef, (snapshot) => {
+        const data = snapshot.val();
+        console.log("Realtime Database Data:", data); // Pour vérifier les données récupérées
+
+        // Accéder aux données des étudiants
+        const etudiant = data?.etudiant; // Utiliser l'opérateur de chaîne optionnelle pour éviter les erreurs
+
+        // Vérifier si l'étudiant existe
+        if (etudiant) {
+            const tableBody = document.getElementById('data-body');
+            tableBody.innerHTML = ''; // Vider le contenu précédent
+
+            // Afficher les données
+            const nom = etudiant.nom || 'Inconnu';
+            const filier = etudiant.filier || 'Inconnu';
+            const moyenne = etudiant.moyenne || 'Inconnue';
+
+            tableBody.innerHTML += `
+                <tr class="odd:bg-white even:bg-gray-50">
+                    <td class="p-5 whitespace-nowrap text-sm text-left leading-6 font-medium text-gray-900">${nom}</td>
+                    <td class="p-5 whitespace-nowrap text-sm text-left leading-6 font-medium text-gray-900">${filier}</td>
+                    <td class="p-5 whitespace-nowrap text-sm text-left leading-6 font-medium text-gray-900">${moyenne}</td>
+                </tr>
+            `;
+        } else {
+            document.getElementById('data-body').innerHTML = '<tr><td colspan="3" class="p-5 text-center">Aucune donnée disponible.</td></tr>';
+        }
+    });
+
+    // Récupérer les données depuis Cloud Firestore
+    const fetchFirestoreData = async () => {
+        const querySnapshot = await getDocs(collection(firestore, "etudiant"));
+        console.log("Firestore Query Snapshot:", querySnapshot); // Pour vérifier le snapshot
+        querySnapshot.forEach((doc) => {
+            const data = doc.data();
+            console.log(`${doc.id} =>`, data); // Pour afficher chaque document
+            // Vous pouvez également ajouter ces données au tableau ici si nécessaire
+        });
+    };
+
+    // Appeler la fonction pour récupérer des données depuis Firestore
+    fetchFirestoreData();
+
+</script> -->
+
+<body>
+
+    <!-- <div id="data-output"></div> -->
+
+    <section class="h-max pb-16" aria-labelledby="results-title">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mt-20 relative text-center">
+    
+            <h1 id="results-title" class="max-w-2xl mx-auto text-center font-manrope font-bold text-4xl text-gray-900 mb-5 md:text-5xl leading-[50px] annim-titre"
+                style="font-family: Poppins, sans-serif">
+                <span class="text-[#35CC35]">Licence 1, Semestre 2</span>
+            </h1>
+    
+            <p class="max-w-sm mx-auto text-center text-base font-normal leading-7 text-gray-500 mb-9 annim-desc">
+                Nous vous invitons à télécharger le PDF contenant vos résultats pour la Licence 1, Semestre 2.
+            </p>
+    
+            <a href="#" class="w-full md:w-auto mb-14 inline-flex items-center justify-center py-3 px-7 text-base font-semibold text-center text-white bg-blue-600 rounded-full shadow-xs transition-all duration-500 cursor-pointer hover:bg-blue-700 annim-onglet-top" 
+               role="button" 
+               aria-label="Télécharger les résultats en PDF">
+                Télécharger les Résultats PDF
+                <svg class="ml-2" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path d="M7.5 15L11.0858 11.4142C11.7525 10.7475 12.0858 10.4142 12.0858 10C12.0858 9.58579 11.7525 9.25245 11.0858 8.58579L7.5 5" 
+                          stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </a>
+    
+            <div class="flex flex-col">
+                <div class="overflow-x-auto">
+                    <div class="min-w-full inline-block align-middle">
+                        <div class="overflow-hidden border rounded-lg border-none">
+                            <table class="min-w-full rounded-xl annim-onglet" aria-label="Tableau des résultats des étudiants">
+                                <thead>
+                                    <tr class="bg-gray-50">
+                                        <th scope="col" class="p-5 text-left text-sm leading-6 font-semibold text-gray-900 capitalize">
+                                            NOM (S) ET PRENOM (S)
+                                        </th>
+                                        <th scope="col" class="p-5 text-left text-sm leading-6 font-semibold text-gray-900 capitalize">
+                                            FILIERE
+                                        </th>
+                                        <th scope="col" class="p-5 text-left text-sm leading-6 font-semibold text-gray-900 capitalize">
+                                            MOYENNE
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody id="data-body">
+                                    <!-- <tr class="odd:bg-white even:bg-gray-50">
+                                        <td class="p-5 whitespace-nowrap text-sm text-left leading-6 font-medium text-gray-900">Louis Vuitton</td>
+                                        <td class="p-5 whitespace-nowrap text-sm text-left leading-6 font-medium text-gray-900">BFAD</td>
+                                        <td class="p-5 whitespace-nowrap text-sm text-left leading-6 font-medium text-gray-900">12.04</td>
+                                    </tr> -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script>
+        // Charger et afficher les données des étudiants
+        fetch('etudiantsL1.json')
+            .then(response => response.json())
+            .then(data => {
+                const tableBody = document.getElementById('data-body');
+
+                data.etudiants.forEach(etudiant => {
+                    const row = document.createElement('tr');
+                    row.className = "odd:bg-white even:bg-gray-50";
+
+                    // Créer les cellules pour chaque colonne
+                    const nomPrenomCell = document.createElement('td');
+                    nomPrenomCell.className = "p-5 whitespace-nowrap text-sm text-left leading-6 font-medium text-gray-900";
+                    nomPrenomCell.textContent = `${etudiant.nom} ${etudiant.prenom}`;
+                    row.appendChild(nomPrenomCell);
+
+                    const filiereCell = document.createElement('td');
+                    filiereCell.className = "p-5 whitespace-nowrap text-sm text-left leading-6 font-medium text-gray-900";
+                    filiereCell.textContent = etudiant.filiere;
+                    row.appendChild(filiereCell);
+
+                    const moyenneCell = document.createElement('td');
+                    moyenneCell.className = "p-5 whitespace-nowrap text-sm text-left leading-6 font-medium text-gray-900";
+                    moyenneCell.textContent = etudiant.moyenne;
+                    row.appendChild(moyenneCell);
+
+                    tableBody.appendChild(row);
+                });
+            })
+            .catch(error => console.error('Erreur de chargement des données:', error));
+    </script>
+
+
+
+    <!-- ==== Script ==== -->
+    <script src="./assets/js/pagedone.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-database.js"></script>
+
+</body>
+
+</html>
+
+<!-- ==== 925DEV ==== -->
