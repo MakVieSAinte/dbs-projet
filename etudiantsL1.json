@@ -1,233 +1,54 @@
 {
-   "etudiants": [
-     {
-       "nom": "Dupont",
-       "prenom": "Marie",
-       "filiere": "Informatique",
-       "moyenne": 15.5
-     },
-     {
-       "nom": "Martin",
-       "prenom": "Jean",
-       "filiere": "Mathematiques",
-       "moyenne": 14.2
-     },
-     {
-       "nom": "Durand",
-       "prenom": "Sophie",
-       "filiere": "Physique",
-       "moyenne": 13.8
-     },
-     {
-       "nom": "Bernard",
-       "prenom": "Lucas",
-       "filiere": "Chimie",
-       "moyenne": 16.1
-     },
-     {
-       "nom": "Petit",
-       "prenom": "Emma",
-       "filiere": "Biologie",
-       "moyenne": 14.9
-      },
-      {
-        "nom": "Rousseau",
-        "prenom": "Alice",
-        "filiere": "Litterature",
-       "moyenne": 15.7
-     },
-     {
-       "nom": "Lefevre",
-       "prenom": "Paul",
-       "filiere": "Economie",
-       "moyenne": 13.5
-      },
-      {
-        "nom": "Martin",
-        "prenom": "Jean",
-        "filiere": "Mathematiques",
-        "moyenne": 14.2
-      },
-      {
-        "nom": "Durand",
-        "prenom": "Sophie",
-        "filiere": "Physique",
-        "moyenne": 13.8
-      },
-      {
-        "nom": "Bernard",
-        "prenom": "Lucas",
-        "filiere": "Chimie",
-        "moyenne": 16.1
-      },
-     {
-       "nom": "Bernard",
-       "prenom": "Lucas",
-       "filiere": "Chimie",
-       "moyenne": 16.1
-     },
-     {
-       "nom": "Petit",
-       "prenom": "Emma",
-       "filiere": "Biologie",
-       "moyenne": 14.9
-     },
-     {
-       "nom": "Dupont",
-       "prenom": "Marie",
-       "filiere": "Informatique",
-       "moyenne": 15.5
-     },
-     {
-       "nom": "Martin",
-       "prenom": "Jean",
-       "filiere": "Mathematiques",
-       "moyenne": 14.2
-     },
-     {
-       "nom": "Durand",
-       "prenom": "Sophie",
-       "filiere": "Physique",
-       "moyenne": 13.8
-     },
-     {
-       "nom": "Bernard",
-       "prenom": "Lucas",
-       "filiere": "Chimie",
-       "moyenne": 16.1
-     },
-     {
-       "nom": "Petit",
-       "prenom": "Emma",
-       "filiere": "Biologie",
-       "moyenne": 14.9
-      },
-      {
-        "nom": "Rousseau",
-        "prenom": "Alice",
-        "filiere": "Litterature",
-       "moyenne": 15.7
-     },
-     {
-       "nom": "Lefevre",
-       "prenom": "Paul",
-       "filiere": "Economie",
-       "moyenne": 13.5
-      },
-      {
-        "nom": "Martin",
-        "prenom": "Jean",
-        "filiere": "Mathematiques",
-        "moyenne": 14.2
-      },
-      {
-        "nom": "Durand",
-        "prenom": "Sophie",
-        "filiere": "Physique",
-        "moyenne": 13.8
-      },
-      {
-        "nom": "Bernard",
-        "prenom": "Lucas",
-        "filiere": "Chimie",
-        "moyenne": 16.1
-      },
-     {
-       "nom": "Bernard",
-       "prenom": "Lucas",
-       "filiere": "Chimie",
-       "moyenne": 16.1
-     },
-     {
-       "nom": "Petit",
-       "prenom": "Emma",
-       "filiere": "Biologie",
-       "moyenne": 14.9
-     },
-     {
-       "nom": "Dupont",
-       "prenom": "Marie",
-       "filiere": "Informatique",
-       "moyenne": 15.5
-     },
-     {
-       "nom": "Martin",
-       "prenom": "Jean",
-       "filiere": "Mathematiques",
-       "moyenne": 14.2
-     },
-     {
-       "nom": "Durand",
-       "prenom": "Sophie",
-       "filiere": "Physique",
-       "moyenne": 13.8
-     },
-     {
-       "nom": "Bernard",
-       "prenom": "Lucas",
-       "filiere": "Chimie",
-       "moyenne": 16.1
-     },
-     {
-       "nom": "Petit",
-       "prenom": "Emma",
-       "filiere": "Biologie",
-       "moyenne": 14.9
-      },
-      {
-        "nom": "Rousseau",
-        "prenom": "Alice",
-        "filiere": "Litterature",
-       "moyenne": 15.7
-     },
-     {
-       "nom": "Lefevre",
-       "prenom": "Paul",
-       "filiere": "Economie",
-       "moyenne": 13.5
-      },
-      {
-        "nom": "Martin",
-        "prenom": "Jean",
-        "filiere": "Mathematiques",
-        "moyenne": 14.2
-      },
-      {
-        "nom": "Durand",
-        "prenom": "Sophie",
-        "filiere": "Physique",
-        "moyenne": 13.8
-      },
-      {
-        "nom": "Bernard",
-        "prenom": "Lucas",
-        "filiere": "Chimie",
-        "moyenne": 16.1
-      },
-     {
-       "nom": "Bernard",
-       "prenom": "Lucas",
-       "filiere": "Chimie",
-       "moyenne": 16.1
-     },
-     {
-       "nom": "Petit",
-       "prenom": "Emma",
-       "filiere": "Biologie",
-       "moyenne": 14.9
-     },
-     {
-       "nom": "Rousseau",
-       "prenom": "Alice",
-       "filiere": "Litterature",
-       "moyenne": 15.7
-     },
-     {
-       "nom": "Lefevre",
-       "prenom": "Paul",
-       "filiere": "Economie",
-       "moyenne": 13.5
-     }
-   ]
- }
- 
+  "etudiants": [
+    { "nom": "Banza", "prenom": "Kevin", "filiere": "Marketing et Communication", "moyenne": 9.8 },
+    { "nom": "Basunga", "prenom": "Yves", "filiere": "Droit", "moyenne": 12.8 },
+    { "nom": "Biyela", "prenom": "Chantal", "filiere": "Marketing et Communication", "moyenne": 15.7 },
+    { "nom": "Boketsu", "prenom": "Grace", "filiere": "Banque et Finance", "moyenne": 12.1 },
+    { "nom": "Bomayé", "prenom": "Lina", "filiere": "Droit", "moyenne": 13.5 },
+    { "nom": "Bukasa", "prenom": "Carine", "filiere": "Marketing et Communication", "moyenne": 14.3 },
+    { "nom": "Fatuma", "prenom": "Amina", "filiere": "Gestion des Ressources Humaines", "moyenne": 17.8 },
+    { "nom": "Ilunga", "prenom": "Patrick", "filiere": "Gestion des Ressources Humaines", "moyenne": 15.9 },
+    { "nom": "Kabamba", "prenom": "Alain", "filiere": "Gestion des Ressources Humaines", "moyenne": 12.3 },
+    { "nom": "Kabasu", "prenom": "Augustin", "filiere": "Gestion des Ressources Humaines", "moyenne": 14.5 },
+    { "nom": "Kabeya", "prenom": "Samuel", "filiere": "Droit", "moyenne": 14.6 },
+    { "nom": "Kabongo", "prenom": "Tresor", "filiere": "Banque et Finance", "moyenne": 17.5 },
+    { "nom": "Kalala", "prenom": "Naomie", "filiere": "Banque et Finance", "moyenne": 16.9 },
+    { "nom": "Kalonji", "prenom": "Freddy", "filiere": "Droit", "moyenne": 9.3 },
+    { "nom": "Kanku", "prenom": "Emmanuel", "filiere": "Informatique", "moyenne": 11.9 },
+    { "nom": "Kabasele", "prenom": "Rachel", "filiere": "Informatique", "moyenne": 12.5 },
+    { "nom": "Kayembe", "prenom": "Nathan", "filiere": "Banque et Finance", "moyenne": 13.3 },
+    { "nom": "Kayiba", "prenom": "Junior", "filiere": "Banque et Finance", "moyenne": 10.1 },
+    { "nom": "Kazadi", "prenom": "Moise", "filiere": "Informatique", "moyenne": 14.1 },
+    { "nom": "Kibala", "prenom": "Justine", "filiere": "Droit", "moyenne": 11.6 },
+    { "nom": "Kitoko", "prenom": "David", "filiere": "Gestion des Ressources Humaines", "moyenne": 10.2 },
+    { "nom": "Kongolo", "prenom": "Bernice", "filiere": "Informatique", "moyenne": 8.8 },
+    { "nom": "Likambo", "prenom": "Felicite", "filiere": "Gestion des Ressources Humaines", "moyenne": 13.1 },
+    { "nom": "Lokwa", "prenom": "Christian", "filiere": "Banque et Finance", "moyenne": 11.2 },
+    { "nom": "Lusamba", "prenom": "Hugues", "filiere": "Marketing et Communication", "moyenne": 8.5 },
+    { "nom": "Lutumba", "prenom": "Michel", "filiere": "Droit", "moyenne": 16.8 },
+    { "nom": "Matondo", "prenom": "Sarah", "filiere": "Droit", "moyenne": 17.1 },
+    { "nom": "Mbemba", "prenom": "Junior", "filiere": "Marketing et Communication", "moyenne": 13.9 },
+    { "nom": "Mbuyi", "prenom": "Gloria", "filiere": "Informatique", "moyenne": 15.1 },
+    { "nom": "Mokili", "prenom": "Aristote", "filiere": "Informatique", "moyenne": 10.7 },
+    { "nom": "Mpoyi", "prenom": "Cynthia", "filiere": "Banque et Finance", "moyenne": 12.7 },
+    { "nom": "Mputu", "prenom": "Kabuya", "filiere": "Informatique", "moyenne": 16.2 },
+    { "nom": "Mwadi", "prenom": "Sylvie", "filiere": "Droit", "moyenne": 17.3 },
+    { "nom": "Mbala", "prenom": "Ruth", "filiere": "Marketing et Communication", "moyenne": 8.9 },
+    { "nom": "Mulumba", "prenom": "Sandrine", "filiere": "Gestion des Ressources Humaines", "moyenne": 13.6 },
+    { "nom": "Mukendi", "prenom": "Divine", "filiere": "Banque et Finance", "moyenne": 10.5 },
+    { "nom": "Ndaya", "prenom": "Joseph", "filiere": "Gestion des Ressources Humaines", "moyenne": 9.1 },
+    { "nom": "Ngeleka", "prenom": "Blaise", "filiere": "Banque et Finance", "moyenne": 17.9 },
+    { "nom": "Ngoyi", "prenom": "Therese", "filiere": "Informatique", "moyenne": 16.6 },
+    { "nom": "Nsiala", "prenom": "Deborah", "filiere": "Marketing et Communication", "moyenne": 16.5 },
+    { "nom": "Nsimba", "prenom": "Mado", "filiere": "Gestion des Ressources Humaines", "moyenne": 9.5 },
+    { "nom": "Nzuzi", "prenom": "Rebecca", "filiere": "Gestion des Ressources Humaines", "moyenne": 11.5 },
+    { "nom": "Sefu", "prenom": "Cedric", "filiere": "Marketing et Communication", "moyenne": 10.9 },
+    { "nom": "Tshala", "prenom": "Nicole", "filiere": "Banque et Finance", "moyenne": 14.9 },
+    { "nom": "Tshibangu", "prenom": "Esther", "filiere": "Informatique", "moyenne": 15.5 },
+    { "nom": "Tshisekedi", "prenom": "Felix", "filiere": "Informatique", "moyenne": 8.2 },
+    { "nom": "Tumba", "prenom": "Ghislain", "filiere": "Droit", "moyenne": 15.2 },
+    { "nom": "Yemba", "prenom": "Didier", "filiere": "Marketing et Communication", "moyenne": 16.3 },
+    { "nom": "Yoka", "prenom": "Prisca", "filiere": "Droit", "moyenne": 11.8 },
+    { "nom": "Zola", "prenom": "Maguy", "filiere": "Marketing et Communication", "moyenne": 10.4 }
+  ]
+}
