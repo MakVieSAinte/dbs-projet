@@ -65,6 +65,11 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+    <script>
+        window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+      </script>
+    <script defer src="./vercel-analytics.js"></script>
   </head>
 
   <body>
@@ -255,7 +260,7 @@
           }`;
           moyenneCell.textContent = etudiant.moyenne;
           row.appendChild(moyenneCell);
-          
+
           const moyenne2Cell = document.createElement("td");
           moyenne2Cell.className = `"p-5 white space-nowrap text-sm text-left leading-6 font-medium ${
             etudiant.moyenne2 <= 10 ? "text-red-500" : "text-gray-900"
