@@ -52,7 +52,7 @@ const afficherEtudiants = async () => {
 `;
       tableBody.innerHTML += row;
     });
-  } catch (error) {
+  } catch (error) {   
     console.error(
       "Erreur lors de la récupération des données Firestore:",
       error
@@ -64,3 +64,5 @@ const afficherEtudiants = async () => {
 // 8. Appelez la fonction pour afficher les étudiants lorsque la page se charge
 window.onload = afficherEtudiants;
 </script>
+
+
