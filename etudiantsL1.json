@@ -48,7 +48,7 @@
     { "nom": "Tshisekedi", "prenom": "Felix", "filiere": "Informatique", "moyenne": 8.2 },
     { "nom": "Tumba", "prenom": "Ghislain", "filiere": "Droit", "moyenne": 15.2 },
     { "nom": "Yemba", "prenom": "Didier", "filiere": "Marketing et Communication", "moyenne": 16.3 },
-    { "nom": "Yoka", "prenom": "Prisca", "filiere": "Droit", "moyenne": 11.8 },
+    { "nom": "Yoka", "prenom": "Prisca", "filiere": "Droit", "moyenne": 11.8 },  
     { "nom": "Zola", "prenom": "Maguy", "filiere": "Marketing et Communication", "moyenne": 10.4 }
   ]
 }   
